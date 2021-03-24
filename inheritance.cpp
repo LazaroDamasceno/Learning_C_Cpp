@@ -28,14 +28,11 @@ class Rectangle: public Shape
         }
 };
 
-int main(void) {
-    //Rectangle Rect;
-    //Rect.setWidth(5);
-    //Rect.setHeight(7);
-    //std::cout << "Total area: " << Rect.getArea() << std::endl;
-    bool isCodingFun = true;
-    bool isFishTasty = false;
-    cout << isCodingFun << endl;  // Outputs 1 (true)
-    cout << isFishTasty << endl;  // Outputs 0 (false)
+int main(void)
+{
+    Rectangle Rect;
+    Rect.setWidth(5);
+    Rect.setHeight(7);
+    std::cout << "Total area: " << Rect.getArea() << std::endl;
     return 0;
 }
